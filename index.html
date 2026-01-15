@@ -1,27 +1,65 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <title>HTML CSS</title>
-    </head>
+<html lang="en">
 
-    <body>
-        <header>
-            <h1 align="center">HTML CSS Basics</h1>
-            <p align="center">This project is only for practice.</p>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Team</li>
-            </ul>
-        </nav>
+<body>
+    <header>
+        <h1 align="center">HTML CSS Basics</h1>
+        <p align="center">This project is only for practice.</p>
+    </header>
 
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Team</a></li>
+        </ul>
+    </nav>
+
+    <main>
         <section>
-
+            <form action="/test.html" method="POST">
+                <label for="username">Username</label>
+                <input id="username" type="text" name="username" required minlength="4" placeholder="Username">
+                <button type="submit">Submit</button>
+            </form>
         </section>
 
-        <footer align="center">2026</footer>
-    </body>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Username</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Allain</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Allain 2</td>
+                        <td>29</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <a href="https://github.com/laaaiiin9" target="_blank">GitHub Profile</a>
+        </section>
+    </main>
+
+    <footer align="center">2026</footer>
+</body>
+
 </html>
