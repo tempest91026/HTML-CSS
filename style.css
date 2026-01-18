@@ -1,7 +1,25 @@
+body {
+    margin: 0;
+}
+
 h1 {
     color: blue;
 }
 
 p {
     color: rgb(0, 166, 19);
+}
+
+header {
+    background-color: rgb(32, 32, 32);
+    border: 1px solid red;
+}
+
+nav {
+    background-color: rgb(56, 56, 56);
+    border: 1px solid yellow;
+}
+
+main {
+    background-color: rgb(88, 88, 88);
 }
